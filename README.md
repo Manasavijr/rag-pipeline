@@ -312,20 +312,4 @@ gcloud run deploy rag-pipeline \
 | `GCP_PROJECT_ID` | GCP project ID |
 | `OLLAMA_BASE_URL` | Ollama server URL (VM or tunnel) |
 
----
 
-## Why This Boosts Your Resume
-
-- **Privacy-first design** — zero data sent to external APIs, all inference local
-- **Production RAG architecture** — chunking, embedding, FAISS retrieval, LLM generation
-- **Multi-modal document support** — PDF, DOCX, TXT, Markdown
-- **Three LLM tasks** — Q&A, summarization, classification from one pipeline
-- **LangChain orchestration** — prompt templates, chains, retrieval
-- **Deployable** — Docker, GCP Cloud Run, GitHub Actions CI/CD
-
-## Resume Talking Points
-
-- Built a privacy-preserving RAG pipeline using LangChain + Ollama + FAISS, processing 100+ page documents locally with zero external API calls
-- Implemented semantic search over FAISS vector store (sentence-transformers embeddings) with relevance scoring, supporting Q&A, summarization, and classification
-- Engineered document ingestion pipeline supporting PDF, DOCX, TXT, and Markdown with configurable chunking (1000 tokens, 200 overlap)
-- Deployed containerized FastAPI service to GCP Cloud Run with GitHub Actions CI/CD, achieving sub-2 second retrieval latency
