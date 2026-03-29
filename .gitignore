@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+mlruns/
+.pytest_cache/
+.coverage
+data/raw/
+data/processed/
+data/indexes/
+*.log
+.DS_Store
+*.faiss
+*.pkl
+/tmp/
